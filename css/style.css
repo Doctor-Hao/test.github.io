@@ -480,10 +480,6 @@ body._bg {
   margin-bottom: calc(20px + 10 * ((100vw - 320px) / (1920 - 320)));
 }
 
-.right-card__text {
-  text-align: center;
-}
-
 .image-slider__image {
   height: 400px;
 }
@@ -664,6 +660,10 @@ body._bg {
   }
 
   .right-card__label {
+    text-align: center;
+  }
+
+  .right-card__text {
     text-align: center;
   }
 }
